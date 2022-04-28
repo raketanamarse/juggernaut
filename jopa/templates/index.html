@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ <html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>tank XD</title>
+  <style type="text/css">
+
+   BODY {
+    /*font-family: Verdana, Arial, sans-serif; /* Рубленый шрифт на странице */
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #top { /* Верхняя часть с заголовком страницы */
+    background: #a41489; /* Цвет фона */
+    border: solid 1px black; /* Параметры рамки  */
+    padding: 15px 15px 15px 10px; /* Поля вокруг текста */
+    margin-bottom: 15px; /* Расстояние между заголовком и колонками */
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: black; /* Цвет символов */
+   }
+   #menu { /* Навигация по сайту */
+    width: 200px; /* Ширина меню */
+    background: #ffffff; /* Цвет фона */
+    border: solid 1px black; /* Параметры рамки */
+    float: right; /* Состыковка с другим слоем по горизонтали */
+    text-align: center;
+    padding: 3px; /* Поля вокруг текста */
+    margin-top: 15px;
+    margin-left: 15px; /* Отступ слева */
+    margin-bottom: 15px /* Отступ снизу */
+   }
+   #menu A { /* Ссылки в меню */
+    font-size: 90%; /* Размер текста */
+   }
+   #content { /* Основное содержание страницы */
+    width: 1200px; /* Ширина */
+    background: #a41489; /* Цвет фона */
+    border: solid 1px black; /* Парам1етры рамки */
+    margin-top: 15px;
+    margin-left: 15px; /* Отступ слева */
+    margin-bottom: 15px /* Отступ снизу */
+   }
+   .b1 { /* Основное содержание страницы */
+     /*font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */
+     background: #41e8a1; /* Синий цвет фона */
+     color: black; /* Белые буквы */
+     font-size: 10pt; /* Размер шрифта в пунктах */
+     border: solid 1px black; /* Парам1етры рамки */
+   }
+   H1 { /* Заголовок страницы */
+    text-align: center; /* Выравнивание по центру */
+    font-size: 150%; /* Размер шрифта */
+    /*font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */
+    font-weight: normal; /* Нормальное начертание */
+    color: black; /* Цвет текста */
+    padding: 0; /* Убираем значение полей */
+    margin: 0; /* Обнуляем значения отступов */
+   }
+   #content P {
+    font-size: 90%; /* Размер шрифта */
+    text-align: justify; /* Выравнивание по ширине */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 0 /* Обнуляем отступы */
+   }
+  </style>
+ </head>
+
+ <body bgcolor="760e63">
+  <!---->
+
+  <!--<div id="top">Заголовок сайта</div>-->
+
+  <div id="menu">
+  <br>
+	
+	<form method="post" action="/"> <input type="submit" class="b1" value="rVideo" name="rVideo"/>
+    <h1>робот</h1>
+    <div id="button">
+      <blockquote> <form method="post" action="/"> <input type="submit" class="b1" value="up" name="up"/> </blockquote>
+      <form method="post" action="/"> <input type="submit" class="b1" value="left" name="left"/>
+      <form method="post" action="/"> <input type="submit" class="b1" value="stop" name="stop"/>
+      <form method="post" action="/"> <input type="submit" class="b1" value="right" name="right"/>
+      <blockquote><form method="post" action="/"> <input type="submit" class="b1" value="down" name="down"/></blockquote>
+    </div>
+
+    <br><br>
+
+    <h1>камера</h1>
+    <div id="button">
+      <blockquote> <form method="post" action="/"> <input type="submit" class="b1" value="Sup" name="Sup"/> </blockquote>
+      <form method="post" action="/"> <input type="submit" class="b1" value="Sleft" name="Sleft"/>
+      <form method="post" action="/"> <input type="submit" class="b1" value="home" name="home"/>
+      <form method="post" action="/"> <input type="submit" class="b1" value="Sright" name="Sright"/>  
+      <blockquote><form method="post" action="/"> <input type="submit" class="b1" value="Sdown" name="Sdown"/></blockquote>
+    </div>
+  </p>
+  </div>
+
+  <div id="content">
+   <!--<h1>THIS IS VIDEO</h1>-->   
+   <img src="http://10.0.2.3:8080/?action=stream" />  
+   <img src="http://raspberrypi:8080/?action=stream" />
+   <img src-"http://10.0.2.3:8080/?action=stream" /> 
+  </div>
+ </body>
+</html>
