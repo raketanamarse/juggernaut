@@ -1,7 +1,10 @@
 # juggernaut
-remote monitoring system
 
-Джаггернаут это система удаленного визуального мониторинга объекта (подвижная платформа с вебкамерой и вебинтерфейсом управленя)
+Джаггернаут это система удаленного визуального мониторинга объекта (подвижная платформа с веб-камерой и веб-интерфейсом управленя)
+
+![020220428_173745_DRO](https://user-images.githubusercontent.com/104571006/165778176-45fc84ee-3507-4098-84d8-3611110b6a02.jpg)
+
+![изображение](https://user-images.githubusercontent.com/104571006/165775937-a71faccb-8828-4fd5-8aa3-fac9792ef6b5.png)
 
 Прототип собирался на raspberry pi 4 
 для работы нудно установить mjpg-streamer (https://github.com/jacksonliam/mjpg-streamer) и поместить в каталог с проектом
@@ -15,7 +18,7 @@ remote monitoring system
 и запустить веб-сервер: python main.py
 зайти на ip адрес rpi4 ip:8000
 
-![020220428_173745_DRO](https://user-images.githubusercontent.com/104571006/165778176-45fc84ee-3507-4098-84d8-3611110b6a02.jpg)
 
 
-![изображение](https://user-images.githubusercontent.com/104571006/165775937-a71faccb-8828-4fd5-8aa3-fac9792ef6b5.png)
+
+
