@@ -14,6 +14,7 @@ remote monitoring system
 после вернуться в ~\jopa
 и запустить веб-сервер: python main.py
 зайти на ip адрес rpi4 ip:8000
+
 ![020220428_173745_DRO](https://user-images.githubusercontent.com/104571006/165778176-45fc84ee-3507-4098-84d8-3611110b6a02.jpg)
 
 
