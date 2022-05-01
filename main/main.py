@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import RPi.GPIO as GPIO
 import os
 from flask import Flask, render_template, request
