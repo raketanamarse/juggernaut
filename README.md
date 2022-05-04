@@ -1,6 +1,7 @@
 # juggernaut
 
 Джаггернаут это система удаленного визуального мониторинга объекта (подвижная платформа с веб-камерой и веб-интерфейсом управленя)
+видео демонстрация https://drive.google.com/drive/folders/1pVir6T9NVAQeprB8VJB5rh41zkXT1gg4
 
 ![020220428_173745_DRO](https://user-images.githubusercontent.com/104571006/165778176-45fc84ee-3507-4098-84d8-3611110b6a02.jpg)
 
