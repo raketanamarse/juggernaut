@@ -11,7 +11,7 @@
 для работы нудно установить mjpg-streamer (https://github.com/jacksonliam/mjpg-streamer) и поместить в каталог с проектом
 
 
-нужно дать права на исполнение
+нужно дать права на исполнение \n
 cd juggernaut
 chmod +x *
 
