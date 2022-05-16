@@ -18,7 +18,7 @@
    img src="http://10.0.2.3:8080/?action=stream" 
    img src="http://raspberrypi:8080/?action=stream" 
    
-после вернуться в ~\jopa
+после вернуться в ~\main
 и запустить веб-сервер: python main.py
 зайти на ip адрес rpi4 ip:8000
 
