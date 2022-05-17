@@ -13,10 +13,16 @@
 
 нужно дать права на исполнение, зайти в дирректорию cd juggernaut и дать права chmod +x *
 
+---------------------------------------------
 после нужно добавить в автозагрузку startgpio.sh командой: sudo mv autorun.service /lib/systemd/system/autorunJuggernaut.service
+
 и выдаем права: sudo chmod 644 /lib/systemd/system/autorunJuggernaut.service
- sudo systemctl daemon-reload
-  sudo systemctl enable autorunJuggernaut.service
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable autorunJuggernaut.service
+
+---------------------------------------------
 
 в ~\main\templates\index.html заменить ip адреса (ы конце файла) трансляции на локальный адрес внутри сети (внутри VPN) {так же нужно задать белые ip, если робот будет находиться не в одной сети вместе с оператором}
     
