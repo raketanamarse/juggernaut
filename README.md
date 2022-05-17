@@ -29,6 +29,7 @@ crontab -e
 
 добавить в конец файла строку:
 @reboot python3 /home/pi/juggernaut/main/main.py
+
 ![изображение](https://user-images.githubusercontent.com/104571006/168795973-6473a2f9-bc89-47e9-9263-a185131c7d4b.png)
 
 
@@ -38,6 +39,8 @@ crontab -e
    img src="http://10.0.2.3:8080/?action=stream" 
    img src="http://raspberrypi:8080/?action=stream" 
    
+   ![изображение](https://user-images.githubusercontent.com/104571006/168796173-72521a09-4463-4031-af23-9e6f8dc8cfd1.png)
+
    
 ---------------------------------------------
 после вернуться в ~\main
