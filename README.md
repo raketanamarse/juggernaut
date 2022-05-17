@@ -23,16 +23,25 @@ sudo systemctl daemon-reload
 sudo systemctl enable autorunJuggernaut.service
 
 ---------------------------------------------
+сделать автозапуск веб-сервера
 
+crontab -e
+
+добавить в конец файла строку:
+@reboot python3 /home/pi/juggernaut/main/main.py
+
+---------------------------------------------
 в ~\main\templates\index.html заменить ip адреса (ы конце файла) трансляции на локальный адрес внутри сети (внутри VPN) {так же нужно задать белые ip, если робот будет находиться не в одной сети вместе с оператором}
     
    img src="http://10.0.2.3:8080/?action=stream" 
    img src="http://raspberrypi:8080/?action=stream" 
    
+   
+---------------------------------------------
 после вернуться в ~\main
 и запустить веб-сервер: python main.py
 зайти на ip адрес rpi4 ip:8000
-
+или sudo reboot если все правильно добавленно в автозагрузку
 
 
 
