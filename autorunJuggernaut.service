@@ -1,0 +1,12 @@
+
+
+[Unit]
+Description=autoRun start GPIO Script Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/juggernaut/startgpio.sh
+
+[Install]
+WantedBy=multi-user.target
